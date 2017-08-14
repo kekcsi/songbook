@@ -1,0 +1,17 @@
+× gray trace 
+× slow down/reset on error 
+× song selector
+    × working
+    × pics
+    × layout
+    - free play
+    - extra song pack support
+- UI design stuff
+    - 16:9
+    × esc button
+- fit screen
+    × css dimensions in em
+    × js to determine font-size after screen dimensions
+- clean up
+    - debug display div
+    - TODO tags

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Songbook &#128077;</title>
+    <script type="text/javascript" src="songs.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body onload="onLoad()" onresize="onResize()">
+    <div id="songlist">
+    </div>
+    <div id="keyboard">
+        <button id="escape" onclick="selsong()" title="Select Song">&nbsp;</button>
+        <table class="whites">
+            <tr>
+                <td>
+                    <button id="btn_0b" onclick="au_0b.play()">B</button>
+                </td><td>
+                    <button id="btn_1c" onclick="au_1c.play()">C</button>
+                </td><td>
+                    <button id="btn_1d" onclick="au_1d.play()">D</button>
+                </td><td>
+                    <button id="btn_1e" onclick="au_1e.play()">E</button>
+                </td><td>
+                    <button id="btn_1f" onclick="au_1f.play()">F</button>
+                </td><td>
+                    <button id="btn_1g" onclick="au_1g.play()">G</button>
+                </td><td>
+                    <button id="btn_1a" onclick="au_1a.play()">A</button>
+                </td><td>
+                    <button id="btn_1b" onclick="au_1b.play()">B</button>
+                </td><td>
+                    <button id="btn_2c" onclick="au_2c.play()">C</button>
+                </td><td>
+                    <button id="btn_2d" onclick="au_2d.play()">D</button>
+                </td>
+            </tr>
+        </table>
+        <table class="blacks">
+            <td>
+                <button id="btn_1cs" onclick="au_1cs.play()" class="black">&nbsp;</button>
+            </td><td>
+                <button id="btn_1ds" onclick="au_1ds.play()" class="black">&nbsp;</button>
+            </td><td>
+                &nbsp;
+            </td><td>
+                <button id="btn_1fs" onclick="au_1fs.play()" class="black">&nbsp;</button>
+            </td><td>
+                <button id="btn_1gs" onclick="au_1gs.play()" class="black">&nbsp;</button>
+            </td><td>
+                <button id="btn_1as" onclick="au_1as.play()" class="black">&nbsp;</button>
+            </td><td>
+                &nbsp;
+            </td><td>
+                <button id="btn_2cs" onclick="au_2cs.play()" class="black">&nbsp;</button>
+            </td>
+        </table>
+        <img id="fly" src="fly.gif">
+    </div>
+
+    <audio id="au_0b">
+        <source src="0b.wav" type="audio/wav">
+        <source src="0b.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="au_1c">
+        <source src="1c.wav" type="audio/wav">
+        <source src="1c.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1cs">
+        <source src="1cs.wav" type="audio/wav">
+        <source src="1cs.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1d">
+        <source src="1d.wav" type="audio/wav">
+        <source src="1d.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1ds">
+        <source src="1ds.wav" type="audio/wav">
+        <source src="1ds.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1e">
+        <source src="1e.wav" type="audio/wav">
+        <source src="1e.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1f">
+        <source src="1f.wav" type="audio/wav">
+        <source src="1f.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1fs">
+        <source src="1fs.wav" type="audio/wav">
+        <source src="1fs.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1g">
+        <source src="1g.wav" type="audio/wav">
+        <source src="1g.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1gs">
+        <source src="1gs.wav" type="audio/wav">
+        <source src="1gs.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1a">
+        <source src="1a.wav" type="audio/wav">
+        <source src="1a.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1as">
+        <source src="1as.wav" type="audio/wav">
+        <source src="1as.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_1b">
+        <source src="1b.wav" type="audio/wav">
+        <source src="1b.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_2c">
+        <source src="2c.wav" type="audio/wav">
+        <source src="2c.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_2cs">
+        <source src="2cs.wav" type="audio/wav">
+        <source src="2cs.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_2d">
+        <source src="2d.wav" type="audio/wav">
+        <source src="2d.ogg" type="audio/ogg">
+    </audio>
+    <audio id="au_celebrate">
+        <source src="celebrate.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div id="displaydiv"></div>
+</body>
+</html>

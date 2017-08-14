@@ -1,0 +1,84 @@
+body {
+    position: relative;
+    width: 90vw;
+    height: 90vh;
+    left: 50vw;
+    top: 0;
+    margin-left: -45vw;
+    margin-top: 5vh;
+    font-size: 10px;
+}
+button { 
+    font-size: inherit;
+}
+table button {
+    height: 25em; 
+    width: 4em; 
+    padding: 16em 0 0 0; 
+    margin: 0; 
+    border: 2px outset silver;
+    color: cyan; 
+    background: white;
+    background-repeat: repeat;
+}
+td { 
+    width: 4em; 
+    margin: 0; 
+    padding: 0;
+    text-align: center;
+}
+button.black { 
+    padding: 0 0 0 0;
+    background: black; 
+    border-bottom: 1em outset silver;
+    height: 16em; 
+    width: 2.5em;
+}
+table.whites { 
+    position: absolute; 
+    left: 50%; 
+    top: 0; 
+    border-collapse: collapse; 
+    margin: 0 0 0 -20em; 
+    padding: 0 
+}
+table.blacks { 
+    position: absolute; 
+    left: 50%; 
+    top: 0;
+    border-collapse: collapse; 
+    z-index: 2; 
+    margin: 0 0 0 -14em; 
+    padding: 0;
+}
+#escape {
+    z-index: 4;
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    width: 5em;
+    height: 4em;
+}
+#fly {
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    width: 5em;
+    height: 5em;
+    transform: rotate(45deg);
+    display: none;
+}
+#displaydiv {
+    padding-top: 25em;
+}
+#songlist img {
+    width: 18em;
+    height: 11.25em;
+    margin: .625em 1em;
+    padding: 0;
+}
+#songlist {
+    position: absolute;
+    left: 50%;
+    margin: 0 0 0 -20em;
+}

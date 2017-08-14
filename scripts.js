@@ -225,8 +225,10 @@ function dotick() {
             (fly.target[1] - fly.pos[1])/tickms*anim_ms
         ]
 
-        var elem = document.getElementById("fly")
-        elem.style.display = "block"
+        setTimeout(function() {
+            var elem = document.getElementById("fly")
+            elem.style.display = "block"
+        }, anim_ms)
     }
     
     return true

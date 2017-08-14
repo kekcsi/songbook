@@ -1,1 +1,4 @@
-{"orientation": "landscape"}
+{
+    "display": "fullscreen",
+    "orientation": "landscape"
+}
